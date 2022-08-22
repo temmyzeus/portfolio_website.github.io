@@ -35,7 +35,27 @@
 					<div class="row gtr-150">
 						<div class="col-6 col-12-medium">
 							<header class="major">
-								<h2><b>Serverless ETL</b><br />
+								<h2><b>Spotify Listens Ingestion with Airflow(In development)</b><br />
+								<b>Built with Airflow, AWS S3, AWS RDS Postgres, Docker & Terraform</b></h2>
+							</header>
+							<p>Ingest Spotify listens data from Spotify's API, and ingest data to an AWS RDS Postgres Database. Airflow is used for orchestration and is deployed on EC2 compute.</p>
+						</div>
+						<div class="col-6 col-12-medium imp-medium">
+							<img src="https://raw.githubusercontent.com/temmyzeus/spotify_airflow_batch_ingestion/master/assets/spotify.drawio.png" alt="Spotify ETL Architecture" width="600" height="373.5">
+							<!--<span class="image fit"><img src="images/covid2.png" alt="" /></span>-->
+						</div>
+						<ul class="actions special">
+							<li><a href="https://github.com/temmyzeus/spotify_airflow_batch_ingestion" class="button">View Project</a></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section id="one" class="main style1">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h2><b>Serverless ETL (Working on scalability improvement with SNS & SQS)</b><br />
 								<b>Built with AWS S3, Glue, Lambda, SQS, SNS & Terraform</b></h2>
 							</header>
 							<p>A Serverless ETL Pipelines to transform data on S3 PUT and load to Staging area. It is built for scalability with SQS and SNS to manage queues.</p>
